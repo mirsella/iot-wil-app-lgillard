@@ -28,7 +28,5 @@ spec:
   ports:
     - name: http
       port: 8888
-      # nodePort: 30080
       targetPort: 8888
-  # type: NodePort
   type: LoadBalancer
