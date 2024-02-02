@@ -26,7 +26,6 @@ spec:
   selector:
     app: wil
   ports:
-    - protocol: TCP
-      name: http
-      port: 8080
+    - name: http
+      port: 8888
       targetPort: 8888
